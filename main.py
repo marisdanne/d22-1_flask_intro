@@ -8,7 +8,7 @@ def getIndex():
 
 @app.route('/home')
 def getHome():
-  return render_template('home.html')
+  return render_template('home.html', active_page = 'home')
 
 @app.route('/about')
 def about():
